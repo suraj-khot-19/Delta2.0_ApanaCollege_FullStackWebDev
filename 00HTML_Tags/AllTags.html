@@ -85,6 +85,48 @@
 
     <!-- sub(base) -->
     <h1>H<sub>2</sub>O</h1>
+
+
+    <!-- semantic  Markup tag -->
+    <!--   
+    ?       header  =>  header of page
+    ?       footer  =>  footer of page
+    ?       main    =>  main content in page which not repeate in entire page(unique info)
+    ?       nav     =>  to define navigations through pagge
+    ?       aside   =>  not part of our page but releted content(used in <a> tag)
+    ?       section =>  to group similar content
+    ?       article =>  The article element represents a complete, or self-contained, composition page. Each article should be
+    ?                   identified, typically by including a heading (h1–h6 element) as a child of the article element.
+    -->
+    <!--!   header -->
+    <header>This is my Header
+        <!--!   nav -->
+        <nav>
+            <a href="/about.html">About</a>
+            <a href="/contact.html">Contact-Us</a>
+        </nav>
+    </header>
+    <!--!   main -->
+    <main>
+        Main content in page
+    </main>
+    <!--!   article -->
+    <article>
+        <p>this is an article</p>
+    </article>
+    <!--!   section -->
+    <section>
+        <p>Education</p>
+    </section>
+    <!--!   footer -->
+    <footer>
+        <p>made with love in india</p>
+        <!--!   aside -->
+        <aside>Created by SurajKhot Developer <a href="linkedin.com">contact</a></aside>
+    </footer>
+
+    <!-- video -->
+    <video src="../Day4/vid.mp4" controls>
 </body>
 
 </html>
