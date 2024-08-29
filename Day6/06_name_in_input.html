@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Name</title>
+</head>
+
+<body>
+    <!-- 
+    !   name    =   name attribute help us to store data on form submit on backend side
+    -->
+    <p>After click on submit with filling form url will be like form_action+?name=value</p>
+    <p>EX: http://127.0.0.1:5500/server?user=suraj&pass=12344</p>
+    <form action="/server">
+        <div>
+            <label for="username">Username:</label>
+            <input type="text" placeholder="Enter name" name="user">
+        </div>
+        <div>
+            <label for="password">Password:</label>
+            <input type="password" placeholder="Enter password" name="pass">
+        </div>
+        <button>Submit</button>
+    </form>
+
+    <!-- real world ex -->
+    <h1>Youtube search</h1>
+    <form action="https://www.youtube.com/result">
+        <input type="text" name="search_query" placeholder="search on youtube">
+        <button>Search</button>
+    </form>
+    <p>after submit form link will be https://www.youtube.com/result?search_query=hi</p>
+</body>
+
+</html>

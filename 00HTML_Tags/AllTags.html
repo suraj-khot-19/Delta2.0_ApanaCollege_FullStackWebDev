@@ -203,6 +203,38 @@
 
     <!-- /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
 
+    <!-- corrected form tag with lable,input,button -->
+    <!-- 
+    !   form    =   used to take input and perform action
+    !               action  =   what will happen after submit form
+
+    !   label   =   used to give id for input tag(with name for)
+    !               for =   used to give key for inserted value in textfeild
+    
+    !   input   =   used to accept data
+    !               id  =   id is unique address id must be same with for attribute in label
+    !               placeholder =   what to display inside textfeild
+    !               type    =   type may be text,password,button,color,number,date.
+    !               value   =   by default inital value inside a textfeild
+    !               name    =   after submit data is stored in form of key value pair where key=name and
+    !                           value=inserted inside a text field
+    
+    !   button  =   used to create btn by default submit type(inside form) and null outside form
+    !               type    =   may be button(act as button),submit(used to submit form) and reset(used to reset 
+    !                           values inside form)
+    -->
+    <h1>form</h1>
+    <form action="/action">
+        <div>
+            <label for="username">Username:</label>
+            <input type="text" id="username" placeholder="Enter Username" name="user">
+        </div>
+        <div>
+            <label for="password">Password:</label>
+            <input type="password" id="password" placeholder="Enter password" name="pass">
+        </div>
+        <button type="submit">Submit</button> &nbsp;&nbsp;&nbsp; <button type="reset">Reset</button>
+    </form>
 </body>
 
 </html>

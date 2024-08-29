@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Button</title>
+</head>
+
+<body>
+    <!-- 
+    !   button  =   inside form buttton type by default is submit but outside it is nothing
+    !   type    =   reset=>will reset the form
+    !           =   submit=>will submit the form to any action
+    !           =   button=>is a simple button
+    -->
+
+    <!-- using button tag -->
+    <h1>using button tag</h1>
+    <button type="button">I am a button</button>
+    <button type="submit">I am a submit</button>
+    <button type="reset">I am a reset</button>
+
+    <!-- using input tag -->
+    <h1>using input tag</h1>
+    <input type="button" value="I am a button">
+    <input type="submit">
+    <input type="reset" value="I am a Reset">
+
+    <!-- in form -->
+    <h1>In form</h1>
+    <form action="/login.php">
+        <div>
+            <label for="username">Username:</label>
+            <input type="text" id="username" placeholder="Enter Username">
+        </div>
+        <div>
+            <label for="birthdate">Birthdate:</label>
+            <input type="number" id="birthdate" placeholder="Enter age">
+        </div>
+        <div>
+            <label for="password">Password:</label>
+            <input type="password" id="password" placeholder="Enter password">
+        </div>
+        <!-- btn -->
+        <p>btn using button tag</p>
+        <button>Click Me</button> <!--by defaULT submit-->
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+        <!-- input -->
+        <p>btn using input tag </p>
+        <input type="submit">
+        <input type="reset">
+    </form>
+</body>
+
+</html>
