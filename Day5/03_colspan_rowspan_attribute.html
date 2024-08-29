@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Colspan rowspam</title>
+</head>
+
+<body>
+    <!-- 
+    !   rowspan     =   how much row will ocupy(by default 1)
+    !   colspan     =   how much column will ocupy(by default 1)
+    -->
+    <table border="">
+        <!-- heading -->
+        <thead>
+            <tr>
+                <th rowspan="2">Food</th> <!-- food will ocupy two rows-->
+                <th colspan="2">Price</th> <!-- Price will ocupy two columns-->
+            </tr>
+            <tr>
+                <th>INR</th>
+                <th>DOLLER</th>
+            </tr>
+        </thead>
+        <!-- body -->
+        <tbody>
+            <tr>
+                <td>Samosa</td>
+                <td>50RS</td>
+                <td>0.19$</td>
+            </tr>
+            <tr>
+                <td>Jalebi</td>
+                <td>30RS</td>
+                <td>0.16$</td>
+            </tr>
+            <tr>
+                <td>Phapada</td>
+                <td>80RS</td>
+                <td>0.9$</td>
+            </tr>
+            <tr>
+                <td>Papaya Chatani</td>
+                <td>20RS</td>
+                <td>0.15$</td>
+            </tr>
+        </tbody>
+        <!-- footer -->
+        <tfoot>
+            <tr>
+                <th>Total</th>
+                <th colspan="2">VISIT Counter</th>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+
+</html>
