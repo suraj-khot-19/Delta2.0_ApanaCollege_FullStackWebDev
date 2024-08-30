@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Textarea</title>
+</head>
+
+<body>
+    <!-- 
+    !   textarea    =   used to create a textarea
+    !   rows        =   deefine height(initaly 2)
+    !   cols        =   deefine width(initaly 2)
+    !   placeholder =   used to add text inside 
+    !   <textarea>initaial</textarea>   =   like this adding value initally
+    -->
+    <form action="/textarea">
+        <div>
+            <label for="feedback">write your valuable feedback here:</label>
+            <textarea name="feed" id="feedback"></textarea>
+        </div>
+        <div>
+            <label for="feedback">write your valuable feedback here:</label>
+            <textarea name="feedback" id="feedback" rows="10" cols="20" placeholder="entter text here!!"></textarea>
+        </div>
+        <div>
+            <label for="feedback">write your valuable feedback here:</label>
+            <textarea name="feedback" id="feedback" rows="10" cols="20">This is initally pesent </textarea>
+        </div>
+        <button>submit</button>
+    </form>
+</body>
+
+</html>

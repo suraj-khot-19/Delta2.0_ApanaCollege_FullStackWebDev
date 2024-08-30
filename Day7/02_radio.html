@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Radio</title>
+</head>
+
+<body>
+    <form action="/radio">
+        <h1>select gender</h1>
+        <p>if we dont add value to input tag then url will be http://127.0.0.1:5500/radio?gender=on</p>
+        <p>after adding value attribute to the input tag url will be http://127.0.0.1:5500/radio?gender=female</p>
+        <div>
+            <input type="radio" name="gender" id="male" value="male">
+            <label for="male">Male</label>
+        </div>
+        <div>
+            <input type="radio" name="gender" id="female" value="female">
+            <label for="female">Female</label>
+        </div>
+        <div>
+            <input type="radio" name="gender" id="other" value="other">
+            <label for="other">Other</label>
+        </div>
+        <button>submit</button>
+    </form>
+</body>
+
+</html>

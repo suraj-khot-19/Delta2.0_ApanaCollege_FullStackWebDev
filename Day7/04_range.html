@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Range</title>
+</head>
+
+<body>
+    <!-- 
+    !   input   type    =   range will make a range
+    !           min     =   specify minimum value(by defalut 0)    
+    !           max     =   specify maximum value(by defalut 100)    
+    !           step    =   specify steps value to select(by defalut none)    
+    !           value   =   specify initial range value(by defalut 50)    
+    -->
+    <p>here value attribute does not require to send a data but if we use it in a input tag it will make initial range
+        value to that value</p>
+    <form action="/range">
+        <div>
+            <label for="vol">Select your volume level</label>
+            <input type="range" name="volume" id="vol">
+        </div>
+        <div>
+            <p>1. this will make a stpes of 15 of select(0-15-30-45...)</p>
+            <label for="vol">Select your volume level</label>
+            <input type="range" name="volume" id="vol" step="15">
+        </div>
+        <div>
+            <p>2. this will make a stpes of 10 of select(0-15-30-45...) and minimum value is 0 and max is 200</p>
+            <label for="vol">Select your volume level</label>
+            <input type="range" name="volume" id="vol" min="0" max="200" step="10">
+        </div>
+        <div>
+            <p>3. this will make a stpes by default and minimum value is 0 and max is 100 by default
+            </p>
+            <label for="vol">Select your volume level</label>
+            <input type="range" name="volume" id="vol" value="30">
+        </div>
+        <button>submit</button>
+    </form>
+</body>
+
+</html>

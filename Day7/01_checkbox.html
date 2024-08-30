@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkbox</title>
+</head>
+
+<body>
+    <!-- 
+    !   input   =   used to create checkbox also
+    !   type    =   checkbox
+    !   checked =   means already checked
+    -->
+    <form action="/server">
+        <h1>18+ Movie</h1>
+        <input type="checkbox" name="is18" id="age">
+        <label for="age">are you 18 +</label><br>
+        <button>Submit</button>
+    </form>
+    <p>after clicked on submit url will be <br>
+        if checked => http://127.0.0.1:5500/server?is18=on <br>
+        else =>http://127.0.0.1:5500/server</p>
+
+    <div>
+        <input type="checkbox" name="privecyAcceptance" id="privacy" checked>
+        <label for="privacy">* aggree to terms and conditions</label>
+    </div>
+
+    <h1>choose fav subject</h1>
+    <form action="/fav">
+        <p>if we dont add value to input tag url will be http://127.0.0.1:5500/fav?subject=on&subject=on but if we add
+            value to input tag and check multiple values then url will be
+            http://127.0.0.1:5500/fav?subject=science&subject=maths</p>
+        <div>
+            <input type="checkbox" id="science" value="science" name="subject">
+            <label for="science">Science</label>
+        </div>
+        <div>
+            <input type="checkbox" id="maths" value="maths" name="subject">
+            <label for="maths">Matametics</label>
+        </div>
+        <div>
+            <input type="checkbox" id="english" value="english" name="subject">
+            <label for="english">English</label>
+        </div>
+        <button>submit</button>
+    </form>
+</body>
+
+</html>
