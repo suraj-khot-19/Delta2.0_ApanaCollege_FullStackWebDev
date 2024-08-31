@@ -1,0 +1,29 @@
+/*  
+    color: #ffffff
+    0-9 numbers and a-f are used to create code
+ */
+h1 {
+    color: #ff0000;
+}
+
+h3 {
+    color: #00ff00;
+}
+
+h2 {
+    color: #0000ff;
+}
+
+
+h4 {
+    color: #ffff00;
+}
+
+h5 {
+    color: #000000;
+}
+
+h6 {
+    color: #ffffff;
+    background-color: #11d41b;
+}
