@@ -224,7 +224,7 @@
     !                           values inside form)
     -->
     <h1>form</h1>
-    <form action="/action">
+    <form action="/action" style="border: 2px solid grey; padding: 10px;margin: 10px;">
         <div>
             <label for="username">Username:</label>
             <input type="text" id="username" placeholder="Enter Username" name="user">
@@ -235,6 +235,118 @@
         </div>
         <button type="submit">Submit</button> &nbsp;&nbsp;&nbsp; <button type="reset">Reset</button>
     </form>
+
+    <!-- form with radio select checkbox dropdown range textarea-->
+    <form action="/all" style="border: 2px solid grey; padding: 10px;margin: 10px;">
+        <!--! radio -->
+        <h3>Gender:</h3>
+        <div> <input type="radio" name="gender" id="male" value="male"><label for="male">Male</label></div>
+        <div> <input type="radio" name="gender" id="female" value="female"><label for="female">Female</label></div>
+        <div><input type="radio" name="gender" id="other" value="other"><label for="other">other</label>
+        </div>
+
+        <!-- !select -->
+        <div>
+            <label for="subject">Favourite subject:</label>
+            <select name="fav-sub" id="subject">
+                <option value="science">Science</option>
+                <option value="dbms">DBMS</option>
+                <option value="js" selected>JS</option>
+                <option value="html">HTML</option>
+            </select>
+        </div>
+
+        <!-- !checkbox -->
+        <h4>fav-actor</h4>
+        <div>
+            <input type="checkbox" name="fav-actor" id="vijay-d" value="vijay-d">
+            <label for="fav-actor">Vijay Deverakonda</label>
+        </div>
+        <div>
+            <input type="checkbox" name="fav-actor" id="vijay-t" value="vijay-t">
+            <label for="fav-actor">Vijay thalapaty</label>
+        </div>
+        <div>
+            <input type="checkbox" name="fav-actor" id="vijay-s" value="vijay-s">
+            <label for="fav-actor">Vijay sethupati</label>
+        </div>
+        <div>
+            <input type="checkbox" name="fav-actor" id="shahid" value="shahid">
+            <label for="fav-actor">Shaid kapoor</label>
+        </div>
+
+        <!-- !range -->
+        <div>
+            <input type="range" name="height" id="height" min="145" max="180">
+            <label for="height">Height</label>
+        </div>
+        <div>
+            <input type="range" name="weight" id="weight" min="10" max="120" step="10">
+            <label for="weight">weight</label>
+        </div>
+
+        <!-- !textarea -->
+        <div>
+            <h4>write your valuable feedback</h4>
+            <textarea name="feedback" id="feedback" cols="20" rows="10" placeholder="Enter feedback...."></textarea>
+        </div>
+        <button>submit</button>
+    </form>
+
+    <!-- table -->
+    <table border="">
+        <thead>
+            <tr>
+                <th rowspan="2">name</th>
+                <th rowspan="2">email</th>
+                <th colspan="3">birthdate</th>
+            </tr>
+            <tr>
+                <th>day</th>
+                <th>month</th>
+                <th>year</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Suraj</td>
+                <td>suraj@gmail.com</td>
+                <td>19</td>
+                <td>02</td>
+                <td>2000</td>
+            </tr>
+            <tr>
+                <td>Suraj</td>
+                <td>suraj@gmail.com</td>
+                <td>19</td>
+                <td>02</td>
+                <td>2000</td>
+            </tr>
+            <tr>
+                <td>Suraj</td>
+                <td>suraj@gmail.com</td>
+                <td>19</td>
+                <td>02</td>
+                <td>2000</td>
+            </tr>
+            <tr>
+                <td>Suraj</td>
+                <td>suraj@gmail.com</td>
+                <td>19</td>
+                <td>02</td>
+                <td>2000</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th>name</th>
+                <th>email</th>
+                <th>day</th>
+                <th>month</th>
+                <th>year</th>
+            </tr>
+        </tfoot>
+    </table>
 </body>
 
 </html>
