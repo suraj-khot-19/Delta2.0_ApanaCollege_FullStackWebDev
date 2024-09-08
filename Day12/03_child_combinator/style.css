@@ -1,0 +1,19 @@
+div>p {
+    color: violet;
+}
+
+div>h1>a {
+    color: violet;
+}
+
+/* ṇot work */
+div>a {
+    color: red;
+}
+
+/* works it is a dissadv */
+div a {
+    color: gold;
+}
+
+/* so we always prefere to use decent selector*/

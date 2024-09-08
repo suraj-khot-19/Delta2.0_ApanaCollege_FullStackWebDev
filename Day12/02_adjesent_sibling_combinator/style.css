@@ -1,0 +1,13 @@
+/* sibling combinator */
+p+h3 {
+    color: red;
+}
+
+h2+h3 {
+    color: green;
+}
+
+/* decendent */
+.myclass button {
+    background-color: coral;
+}

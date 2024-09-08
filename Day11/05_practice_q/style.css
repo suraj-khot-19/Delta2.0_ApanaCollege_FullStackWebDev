@@ -1,3 +1,7 @@
-#myId {
+/* #myId p {
     color: blueviolet;
+} */
+
+div[id="myId"] p {
+    color: red;
 }
