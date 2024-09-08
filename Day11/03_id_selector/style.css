@@ -1,0 +1,17 @@
+#login {
+    background-color: white;
+}
+
+#signup {
+    background-color: red;
+    color: white;
+}
+
+#google {
+    background-color: cadetblue;
+}
+
+#github {
+    background-color: black;
+    color: white;
+}

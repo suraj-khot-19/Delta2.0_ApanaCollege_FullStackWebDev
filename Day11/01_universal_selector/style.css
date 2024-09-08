@@ -1,0 +1,13 @@
+/* 
+universal selector
+    =   defined by 
+        *{
+        property:value
+        }
+ */
+* {
+    background-color: aqua;
+    font-family: Georgia;
+    margin: 0;
+    padding: 0;
+}
