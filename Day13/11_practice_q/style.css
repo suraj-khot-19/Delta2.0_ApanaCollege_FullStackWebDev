@@ -1,0 +1,60 @@
+/* ! question 1 */
+#myId {
+    color: gray;
+}
+
+.myClass {
+    color: purple;
+}
+
+h1 {
+    color: red;
+}
+
+/* 
+(id>class>element) selectors
+*/
+
+/* ! question 2 */
+/* decent selector */
+div p {
+    color: darkblue;
+}
+
+/* (id,class,element)===(0,0,2)==2 */
+
+/* class selector */
+.para {
+    color: crimson;
+}
+
+/* (id,class,element)===(0,1,0)==10 */
+
+/* element selector  */
+p {
+    color: blueviolet;
+}
+
+/* (id,class,element)===(0,0,1)==1 */
+
+/* !question 3 */
+
+div.greetDiv .greet {
+    color: green;
+}
+
+/* specificity  (id,class,element)===(0,2,1)==21  */
+
+.greetDiv p.greet {
+    color: blue;
+}
+
+/* specificity  (id,class,element)===(0,2,1)==21   */
+
+.greetDiv .greet {
+    color: red;
+}
+
+/* specificity  (id,class,element)===(0,2,0)==20   */
+
+/* if both are same then cascading property we are using means which one is last that is the prop */

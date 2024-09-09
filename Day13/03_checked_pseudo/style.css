@@ -1,0 +1,11 @@
+input[type="radio"]:checked+label {
+    font-weight: bold;
+    font-style: italic;
+    color: coral;
+}
+
+input[type="checkbox"]:checked+label {
+    font-weight: bolder;
+    text-decoration: underline;
+    color: greenyellow
+}

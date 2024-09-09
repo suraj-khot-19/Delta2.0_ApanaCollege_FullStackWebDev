@@ -1,0 +1,17 @@
+p::first-letter {
+    color: aqua;
+    font-weight: bold;
+    font-size: 100px;
+}
+
+h1::first-letter {
+    color: coral;
+    font-weight: bold;
+    font-size: 60px;
+}
+
+h5::first-letter {
+    color: burlywood;
+    font-weight: bold;
+    font-size: 60px;
+}

@@ -1,0 +1,20 @@
+button:active {
+    background-color: aqua;
+    color: black;
+}
+
+p:active {
+    font-size: larger;
+    color: white;
+    background-color: black;
+    padding: 0.5rem;
+    width: fit-content;
+}
+
+h1:active {
+    font-size: larger;
+    background-color: violet;
+    color: black;
+    padding: 0.5rem;
+    width: fit-content;
+}

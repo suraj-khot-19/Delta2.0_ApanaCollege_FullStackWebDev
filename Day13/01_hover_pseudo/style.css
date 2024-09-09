@@ -1,0 +1,20 @@
+button:hover {
+    background-color: aqua;
+    color: black;
+}
+
+p:hover {
+    font-size: larger;
+    color: white;
+    background-color: black;
+    padding: 0.5rem;
+    width: fit-content;
+}
+
+h1:hover {
+    font-size: larger;
+    background-color: violet;
+    color: black;
+    padding: 0.5rem;
+    width: fit-content;
+}

@@ -1,0 +1,9 @@
+p::selection {
+    background-color: aqua;
+    color: rgb(255, 0, 0);
+}
+
+h3::selection {
+    background-color: blueviolet;
+    color: white;
+}
