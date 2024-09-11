@@ -1,0 +1,49 @@
+#div1 {
+    border: 3px solid green;
+    border-radius: 50px;
+}
+
+#div2 {
+    border: 3px solid green;
+    border-top-right-radius: 50px;
+}
+
+#div3 {
+    border: 3px solid brown;
+    border-top-left-radius: 50px;
+}
+
+/* search bar */
+#searchbar {
+    margin-top: 10px;
+
+}
+
+#searchbar input {
+    height: 30px;
+    width: 300px;
+    border: 1px solid coral;
+    border-radius: 50px;
+}
+
+/* top bottom logic */
+#mydiv1 {
+    margin-top: 50px;
+    background-color: aquamarine;
+    height: 100px;
+    width: 100px;
+    border: 2px solid red;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom: none;
+}
+
+#mydiv2 {
+    background-color: burlywood;
+    height: 100px;
+    width: 100px;
+    border: 2px solid red;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-top: none;
+}

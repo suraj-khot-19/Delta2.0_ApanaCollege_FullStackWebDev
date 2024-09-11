@@ -1,0 +1,63 @@
+#div1 {
+    height: 100px;
+    width: 100px;
+    background-color: yellow;
+    /* left */
+    padding-left: 40px;
+}
+
+#div2 {
+    height: 100px;
+    width: 100px;
+    background-color: yellow;
+    /* right */
+    padding-right: 30px;
+}
+
+#div3 {
+    height: 100px;
+    width: 100px;
+    background-color: yellow;
+    /* top */
+    padding-top: 30px;
+}
+
+#div4 {
+    height: 100px;
+    width: 100px;
+    background-color: yellow;
+    /* bottom */
+    padding-bottom: 30px;
+}
+
+#div5 {
+    height: 100px;
+    width: 100px;
+    background-color: yellow;
+    /* all side */
+    padding: 30px;
+}
+
+#div6 {
+    height: 100px;
+    width: 100px;
+    background-color: yellow;
+    /* top-bottom | left-right */
+    padding: 20px 50px;
+}
+
+#div7 {
+    height: 100px;
+    width: 100px;
+    background-color: yellow;
+    /* top | left-right | bottom */
+    padding: 20px 30px 50px;
+}
+
+#div8 {
+    height: 100px;
+    width: 100px;
+    background-color: yellow;
+    /* top | left | bottom | right */
+    padding: 10px 20px 30px 40px;
+}
