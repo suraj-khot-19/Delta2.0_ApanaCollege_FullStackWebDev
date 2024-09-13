@@ -1,0 +1,15 @@
+h1 {
+    /* forcefully make display inline */
+    display: inline;
+}
+
+span {
+    /* forcefully make display block */
+    display: block;
+}
+
+#logic {
+    width: 200px;
+    height: 200px;
+    border: 2px solid black;
+}

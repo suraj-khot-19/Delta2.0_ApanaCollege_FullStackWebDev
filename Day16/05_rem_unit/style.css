@@ -1,0 +1,47 @@
+/* !! problem with em snow fall problem*/
+/*
+section {
+    font-size: 25px;
+}
+
+#div1 {
+    font-size: 2em;
+    / 50px /
+}
+
+#div2 {
+    font-size: 2em;
+    /* 100px /
+}
+
+#div3 {
+    font-size: 2em;
+    /* 200px /
+}
+
+#div4 {
+    font-size: 2em;
+    /* 300px /
+}
+
+*/
+/* ? hence we use rem which set property by its root element */
+section {
+    font-size: 25px;
+}
+
+#div1 {
+    font-size: 2rem;
+}
+
+#div2 {
+    font-size: 2rem;
+}
+
+#div3 {
+    font-size: 2rem;
+}
+
+#div4 {
+    font-size: 2rem;
+}

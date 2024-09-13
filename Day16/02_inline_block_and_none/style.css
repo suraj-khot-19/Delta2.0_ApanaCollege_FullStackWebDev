@@ -1,0 +1,17 @@
+div {
+    height: 200px;
+    width: 200px;
+    background-color: aqua;
+    margin: 20px;
+    border: 2px solid black;
+    /*! if we do inline all content come in one line but no style */
+    /* display: inline; */
+
+    /* this will make inline with block style */
+    display: inline-block;
+}
+
+#none {
+    /* this will hide a content */
+    display: none;
+}

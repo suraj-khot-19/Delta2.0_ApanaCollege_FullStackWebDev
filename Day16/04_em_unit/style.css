@@ -1,0 +1,63 @@
+/*! font size will be set with res to parent when we use em */
+h1 {
+    font-size: 15px;
+}
+
+#s1 {
+    /* 30px of 2*h1 */
+    font-size: 2em;
+}
+
+#s2 {
+    /* 7.5px of 2*h1 */
+    font-size: 0.5em;
+}
+
+#s1 {
+    /* 45px of 3*h1 */
+    font-size: 3em;
+}
+
+/*! padding/margin will be set with res to ***self when we use em */
+#outer {
+    background-color: yellow;
+    height: 500px;
+    width: 500px;
+}
+
+#inner2 {
+    background-color: red;
+    height: 50%;
+    /* 250px */
+    width: 50%;
+    /* 250px */
+    margin-left: 4em;
+    /* 64 */
+}
+
+/* !! problem with em snow fall problem*/
+section {
+    font-size: 25px;
+}
+
+#div1 {
+    font-size: 2em;
+    /* 50px */
+}
+
+#div2 {
+    font-size: 2em;
+    /* 100px */
+}
+
+#div3 {
+    font-size: 2em;
+    /* 200px */
+}
+
+#div4 {
+    font-size: 2em;
+    /* 300px */
+}
+
+/* ? hence we use rem which set property by its root element */

@@ -1,0 +1,37 @@
+img {
+    /* here body is parent of img so body height-30% width-50% */
+    width: 50%;
+    height: 30%;
+}
+
+#outer {
+    background-color: chocolate;
+    height: 400px;
+    width: 700px;
+    /* (700 * 400 ) */
+}
+
+#inner {
+    background-color: gray;
+    height: 50%;
+    width: 50%;
+    /*  means (350 * 250) */
+}
+
+
+#first {
+    background-color: yellow;
+    height: 500px;
+    width: 500px;
+    /* (500 * 500 ) */
+    margin: 50px;
+}
+
+#sec {
+    background-color: red;
+    height: 30%;
+    width: 30%;
+    /* (150 * 150 ) */
+    margin-left: 50%;
+    /*! 250px means  of h and w of parent */
+}
