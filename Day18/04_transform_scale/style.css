@@ -1,0 +1,49 @@
+div:nth-of-type(2n+1) {
+    background-color: green;
+}
+
+div:nth-of-type(2n) {
+    background-color: yellow;
+}
+
+div {
+    border: 2px solid black;
+    margin: 70px;
+    height: 25px;
+    width: 150px;
+}
+
+#d1 {
+    transform: scale(0);
+    /*remove*/
+}
+
+#d2 {
+    transform: scale(0.5);
+    /*half*/
+}
+
+#d3 {
+    transform: scale(2);
+    /*double*/
+}
+
+#d4 {
+    transform: scaleX(3)
+        /*x axis la triple*/
+}
+
+#d5 {
+    transform: scaleY(3);
+    /*y axis la triple*/
+}
+
+#d6 {
+    transform: scaleZ(10);
+    /*z axis la triple*/
+}
+
+#d7 {
+    transform: scale(0.5, 2);
+    /*x axis la 1/2 and y axis la 2*/
+}

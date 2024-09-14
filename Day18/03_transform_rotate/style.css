@@ -1,0 +1,22 @@
+#mine {
+    margin: 100px 0 0 100px;
+    height: 500px;
+    width: 500px;
+    background-color: burlywood;
+    transform: rotate(50deg);
+    border-radius: 0 280px 0 280px;
+}
+
+div#my {
+    margin-left: 20px;
+    height: 100px;
+    width: 100px;
+    background-color: goldenrod;
+    transform: rotate(50deg);
+}
+
+div#my h1 {
+    padding: 25px 25px 25px 15px;
+    text-align: center;
+    transform: rotate(-50deg);
+}

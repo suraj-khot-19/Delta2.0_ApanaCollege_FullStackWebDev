@@ -1,0 +1,18 @@
+/* alpha and opacity ranges from 0-1 */
+
+/* 
+color: rgba(225, 200, 0, 0-1);
+hex color : #e1c800(00-ff)
+*/
+#div1 {
+    height: 300px;
+    width: 500px;
+    background-color: rgba(225, 200, 0, 0.5);
+}
+
+#div2 {
+    height: 300px;
+    width: 500px;
+    background-color: palegreen;
+    opacity: 0.5;
+}

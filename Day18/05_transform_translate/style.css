@@ -1,0 +1,54 @@
+div:nth-of-type(2n+1) {
+    background-color: green;
+}
+
+div:nth-of-type(2n) {
+    background-color: yellow;
+}
+
+div {
+    border: 2px solid black;
+    margin: 70px auto;
+    height: 25px;
+    width: 150px;
+}
+
+#d1 {
+    transform: translate(0);
+    /* no move in any axis */
+}
+
+#d2 {
+    transform: translate(0, 150px);
+    /* 150px in y axis move in any dir */
+}
+
+#d3 {
+    transform: translate(100px, 0);
+    /* 100 px move in any x axis */
+}
+
+#d4 {
+    transform: translateX(220px);
+    /* 220 px move in any x axis */
+}
+
+#d5 {
+    transform: translateY(250px);
+    /* 250 px move in any y axis */
+}
+
+#d6 {
+    transform: translateZ(250px);
+    /* 250 px move in any z axis */
+}
+
+#d7 {
+    transform: translate(50px, 50px, 20px);
+    /* 250 px move in any z axis */
+}
+
+#d8 {
+    transform: translate(-250px);
+    /* -250(left) px move in any x axis */
+}

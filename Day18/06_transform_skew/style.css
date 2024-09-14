@@ -1,0 +1,54 @@
+div:nth-of-type(2n+1) {
+    background-color: green;
+}
+
+div:nth-of-type(2n) {
+    background-color: yellow;
+}
+
+div {
+    border: 2px solid black;
+    margin: 70px auto;
+    height: 25px;
+    width: 150px;
+}
+
+#d1 {
+    transform: skew(25deg, 30deg)
+        /*cross in 25 x axis and 30 y axis */
+}
+
+#d2 {
+    transform: skewX(25deg)
+        /* 25deg sleep in x axis */
+}
+
+#d3 {
+    transform: skewY(35deg);
+    /* 35 deg sleep in any y axis */
+}
+
+#d4 {
+    transform: skew(30deg) rotate(30deg)
+        /* 30 rotate in any x axis and sleep 30 deg in axis x  */
+}
+
+#d5 {
+    transform: skew(50deg) rotate(35deg) translate(150px)
+        /* 150 px to the left side and sleep 50 deg and rotate 35 deg in x */
+}
+
+#d6 {
+    transform: skew(50deg) rotate(35deg) translate(-150px)
+        /* 150 px to the right side and sleep 50 deg and rotate 35 deg in x */
+}
+
+#d7 {
+    transform: skew(90deg)
+        /* remove element from screen */
+}
+
+#d8 {
+    transform: skew(-90deg)
+        /* remove element from screen */
+}
