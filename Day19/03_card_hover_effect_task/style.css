@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.card {
+    display: inline-block;
+    margin: 15px 0px 0px 15px;
+    width: 180px;
+    height: 200px;
+    border-radius: 10px;
+    box-shadow: 3px 2px 7px black;
+    transition: 1s;
+}
+
+.card img {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    height: 60%;
+    width: 100%;
+}
+
+.card:hover {
+    box-shadow: 6px 3px 14px black;
+}
+
+.card h3,
+p {
+    padding-left: 8px;
+    padding-top: 10px;
+}

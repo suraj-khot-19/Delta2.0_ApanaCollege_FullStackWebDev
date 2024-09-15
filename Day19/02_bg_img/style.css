@@ -1,0 +1,38 @@
+body {
+    background-image: url('TouchKeyboardThemeDark000.jpg');
+    background-size: cover;
+    border: 3px dotted white;
+}
+
+#id1 {
+    margin: 25px;
+    color: white;
+    padding: 25px;
+    border: 3px dotted white;
+    height: 500px;
+    width: 500px;
+    background-image: url('TouchKeyboardThemeDark001.jpg');
+    background-size: contain;
+}
+
+#id2 {
+    margin: 25px;
+    color: white;
+    padding: 25px;
+    border: 3px dotted white;
+    height: 500px;
+    width: 500px;
+    background-image: url('TouchKeyboardThemeDark002.jpg');
+    background-size: cover;
+}
+
+#id3 {
+    margin: 25px;
+    color: white;
+    padding: 25px;
+    border: 3px dotted white;
+    height: 500px;
+    width: 500px;
+    background-image: url('TouchKeyboardThemeDark000.jpg');
+    background-size: auto;
+}

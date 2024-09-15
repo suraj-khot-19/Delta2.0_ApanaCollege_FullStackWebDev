@@ -1,0 +1,52 @@
+body {
+    background-color: black;
+}
+
+#outer {
+    margin: 50px auto;
+    height: 300px;
+    width: 300px;
+    background-color: white;
+}
+
+#inner {
+    position: relative;
+    top: 7px;
+    margin: 50px auto;
+    height: 95%;
+    width: 95%;
+    background-color: rgb(255, 221, 0);
+    border-radius: 50%;
+}
+
+.eye {
+    height: 8%;
+    width: 8%;
+    background-color: red;
+    display: inline-block;
+    border-radius: 50%;
+}
+
+#left {
+    position: relative;
+    left: 25%;
+    top: 15%;
+}
+
+#right {
+    position: relative;
+    right: -60%;
+    top: 15%;
+}
+
+#mouth {
+    height: 15%;
+    width: 40%;
+    background-color: red;
+    display: inline-block;
+    position: relative;
+    left: 10%;
+    top: 60%;
+    border-bottom-left-radius: 40%;
+    border-bottom-right-radius: 40%;
+}

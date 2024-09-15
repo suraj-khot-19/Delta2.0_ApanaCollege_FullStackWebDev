@@ -1,0 +1,54 @@
+section div {
+    display: inline-block;
+}
+
+div {
+    height: 150px;
+    width: 150px;
+    background-color: palegreen;
+    margin: 15px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+#static {
+    position: static;
+    top: 100px;
+    left: 100px;
+    background-color: aquamarine;
+}
+
+#relative {
+    position: relative;
+    top: 100px;
+    left: 100px;
+    background-color: yellow;
+}
+
+#absolute {
+    position: absolute;
+    top: 100px;
+    left: 100px;
+    background-color: violet
+}
+
+#fixed {
+    position: fixed;
+    top: 100px;
+    left: 100px;
+    background-color: red
+}
+
+#sticky {
+    position: sticky;
+    top: 500px;
+    /*no work*/
+    left: 600px;
+    bottom: 500px;
+    background-color: goldenrod
+}
+
+img {
+    height: 150px;
+    width: 750px;
+}

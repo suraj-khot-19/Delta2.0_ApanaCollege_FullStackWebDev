@@ -1,0 +1,33 @@
+body {
+    background-color: black;
+}
+
+#d1 {
+    height: 150px;
+    width: 150px;
+    margin: 25px auto;
+    box-shadow: 3px 3px 40px white;
+    /* x-offset y-offset blur-radius color */
+}
+
+#d2 {
+    height: 150px;
+    width: 150px;
+    margin: 25px auto;
+    box-shadow: 3px 3px white;
+    background-color: slategrey;
+    /* x-offset y-offset color */
+}
+
+button {
+    border: none;
+    margin: 25px auto;
+    box-shadow: 3px 3px 10px gray;
+    background-color: bisque;
+}
+
+button:active {
+    border: none;
+    margin: 25px auto;
+    box-shadow: 5px 5px 40px white;
+}
