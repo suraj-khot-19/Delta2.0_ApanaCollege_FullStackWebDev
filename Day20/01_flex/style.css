@@ -1,0 +1,19 @@
+#container {
+    width: 600px;
+    height: 500px;
+    background-color: aliceblue;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    /* by default row*/
+    transition: flex-direction 2s ease-in 0.2s
+}
+
+#container div {
+    height: 100px;
+    width: 250px;
+}
+
+#container:hover {
+    flex-direction: row;
+}

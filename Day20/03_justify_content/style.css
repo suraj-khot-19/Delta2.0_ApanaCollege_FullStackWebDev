@@ -1,0 +1,58 @@
+.container {
+    width: 800px;
+    height: 50px;
+    background-color: aliceblue;
+    border: 2px solid black;
+    margin: 25px;
+}
+
+.container div {
+    height: 50px;
+    width: 50px;
+}
+
+#container1 {
+    display: flex;
+}
+
+#container2 {
+    display: flex;
+    justify-content: center;
+
+}
+
+#container3 {
+    display: flex;
+    justify-content: start;
+
+}
+
+#container4 {
+    display: flex;
+    justify-content: left;
+}
+
+#container5 {
+    display: flex;
+    justify-content: right;
+}
+
+#container6 {
+    display: flex;
+    justify-content: end;
+}
+
+#container7 {
+    display: flex;
+    justify-content: space-between;
+}
+
+#container8 {
+    display: flex;
+    justify-content: space-around;
+}
+
+#container9 {
+    display: flex;
+    justify-content: space-evenly;
+}

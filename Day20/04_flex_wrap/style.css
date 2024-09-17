@@ -1,0 +1,48 @@
+.container {
+    width: 600px;
+    height: 500px;
+    background-color: aliceblue;
+    border: 2px solid black;
+    display: flex;
+    margin: 25px;
+}
+
+.container div {
+    height: 100px;
+    width: 250px;
+}
+
+#container2 {
+    flex-wrap: nowrap;
+}
+
+#container3 {
+    flex-wrap: wrap;
+}
+
+#container4 {
+    flex-wrap: wrap-reverse;
+}
+
+.container2 {
+    width: 600px;
+    height: 500px;
+    background-color: aliceblue;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    margin: 25px;
+}
+
+.container2 div {
+    height: 100px;
+    width: 250px;
+}
+
+#container5 {
+    flex-wrap: wrap;
+}
+
+#container6 {
+    flex-wrap: wrap-reverse;
+}

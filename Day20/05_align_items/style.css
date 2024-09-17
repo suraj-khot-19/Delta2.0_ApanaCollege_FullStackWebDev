@@ -1,0 +1,68 @@
+/*! justify content ==> main axis change */
+/*! align content ==> cross axis change */
+
+.container {
+    background-color: azure;
+    height: 350px;
+    width: 750px;
+    border: 2px solid black;
+    margin: 25px;
+}
+
+.container div {
+    background-color: greenyellow;
+    height: 150px;
+    width: 150px;
+    border: 2px solid black;
+    font-size: 25px;
+}
+
+#container1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#container2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#container3 {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+#container4 {
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+}
+
+#container5 {
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    justify-content: center;
+}
+
+#container6 {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: center;
+}
+
+#container7 {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+
+#container8 {
+    display: flex;
+    flex-direction: row;
+    align-items: end;
+}

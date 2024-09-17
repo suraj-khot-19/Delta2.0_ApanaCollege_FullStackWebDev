@@ -1,0 +1,82 @@
+/*! justify content ==> main axis change */
+/*! align content ==> cross axis change */
+
+.container {
+    background-color: azure;
+    height: 550px;
+    width: 750px;
+    border: 2px solid black;
+    margin: 25px;
+}
+
+.container div {
+    background-color: greenyellow;
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    font-size: 25px;
+}
+
+/* grow */
+#container1 {
+    display: flex;
+    flex-direction: column;
+}
+
+#container2 {
+    display: flex;
+}
+
+#grow1 {
+    flex-grow: 3;
+}
+
+#grow2 {
+    flex-grow: 1;
+}
+
+/* basis */
+#container3 {
+    display: flex;
+    flex-direction: column;
+}
+
+#container4 {
+    display: flex;
+}
+
+#basis1 {
+    flex-basis: 200px;
+}
+
+#basis2 {
+    flex-basis: 200px;
+}
+
+/* shrink */
+#container5 {
+    display: flex;
+    flex-direction: column;
+}
+
+#container6 {
+    display: flex;
+}
+
+#container6 div {
+    height: 400px;
+    width: 800px;
+}
+
+#container5 div {
+    height: 400px;
+    width: 800px;
+}
+
+#shrink1 {
+    flex-shrink: 3;
+}
+
+#shrink2 {
+    flex-shrink: 1;
+}
