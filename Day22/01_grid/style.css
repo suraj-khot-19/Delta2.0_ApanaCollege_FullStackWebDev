@@ -1,0 +1,27 @@
+.container1 {
+    height: 300px;
+    width: 600px;
+    background-color: aqua;
+    display: flex;
+}
+
+.container2 {
+    height: 300px;
+    width: 600px;
+    background-color: aqua;
+    display: grid;
+}
+
+.container1 div {
+    height: 50px;
+    width: 100px;
+    background-color: brown;
+    border: 2px solid black;
+}
+
+.container2 div {
+    height: 50px;
+    width: 100px;
+    background-color: brown;
+    border: 2px solid black;
+}
