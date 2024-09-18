@@ -1,0 +1,35 @@
+.container {
+    width: 400px;
+    border: 2px solid black;
+    border-radius: 25px;
+    margin: 10px;
+    padding: 10px;
+}
+
+span,
+i {
+    color: rgb(249, 149, 0);
+}
+
+h4,
+p {
+    margin: 3px 1px;
+}
+
+.container img {
+    border-radius: 25px;
+    width: 100%;
+    align-self: center;
+}
+
+#main {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+/* adding responsiveness */
+@media(max-width:700px) {
+    #main {
+        flex-wrap: wrap;
+    }
+}

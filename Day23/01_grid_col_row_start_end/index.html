@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container1">
+        <div>1</div>
+        <div>2</div>
+        <div id="col1">
+            grid-row-start: 3;
+            grid-row-end: 5;
+        </div>
+    </div>
+    <div class="container2">
+        <div id="col2"> grid-column-start: 1;
+            grid-column-end: 3;</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+        <div id="col3"> grid-column-start: 1;
+            grid-column-end: 3;</div>
+    </div>
+
+
+    <div class="container3">
+        <div id="col4">
+            grid-row: start/end(line);
+            grid-row: 1/3;
+        </div>
+        <div id="col5">
+            grid-column: start/end(line);
+            grid-column: 2/4;
+        </div>
+        <div>3</div>
+        <div>4</div>
+        <div>5</div>
+        <div id="col6">grid-column: 2/4;</div>
+    </div>
+
+    <div class="container4">
+        <div id="col7">
+            grid-row: start/span how-manynext-lines;
+            grid-row: 1/span 5;
+        </div>
+        <div>2</div>
+        <div>3</div>
+        <div id="col8">
+            grid-column: start/span how-manynext-lines;
+            grid-column: 2/span 2;
+        </div>
+        <div id="col9">
+            grid-row: start/span how-manynext-lines;
+            grid-row: 3/span 3;
+        </div>
+    </div>
+</body>
+
+</html>

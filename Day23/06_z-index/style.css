@@ -1,0 +1,45 @@
+.box {
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+    border: 2px solid black;
+    margin: 10px;
+}
+
+#id1 {
+    background-color: red;
+    z-index: 1;
+    position: relative;
+}
+
+#id2 {
+    background-color: green;
+    position: relative;
+    bottom: 50px;
+}
+
+#id3 {
+    background-color: purple;
+    position: relative;
+    top: 50px;
+    z-index: 2;
+}
+
+#id4 {
+    position: relative;
+    z-index: -1;
+}
+
+#id5 {
+    background-color: brown;
+    position: relative;
+    top: 35px;
+    z-index: -1;
+}
+
+#id6 {
+    background-color: coral;
+    position: relative;
+    left: 25px;
+    z-index: -2;
+}

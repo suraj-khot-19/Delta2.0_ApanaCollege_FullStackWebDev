@@ -1,0 +1,17 @@
+@media(max-width: 200px) {
+    h1 {
+        background-color: pink;
+    }
+}
+
+@media(min-width: 700px) {
+    h1 {
+        background-color: greenyellow;
+    }
+}
+
+@media(min-width:200px)and(max-width: 300px) {
+    h1 {
+        background-color: gold;
+    }
+}
