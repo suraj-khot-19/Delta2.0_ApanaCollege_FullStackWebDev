@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    /* background-image: url('img27.jpg'); */
+    background-size: cover;
+}
+
+#check {
+    display: none;
+}
+
+#menueicon {
+    position: absolute;
+    left: 10px;
+    font-size: 20px;
+    font-weight: 800;
+    line-height: 60px;
+    cursor: pointer;
+    opacity: 0.5;
+}
+
+#menueicon:hover {
+    opacity: 1;
+}
+
+.sidebar {
+    height: 100vh;
+    width: 250px;
+    background-color: rgba(255, 255, 255, 0.1);
+    position: fixed;
+    box-shadow: 0 0 6px red;
+}
+
+#close {
+    position: absolute;
+    top: 2px;
+    right: 10px;
+    font-size: 20px;
+    font-weight: 800;
+    line-height: 60px;
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+#close:hover {
+    opacity: 1;
+}
+
+.sidebar .menue {
+    position: absolute;
+    top: 80px;
+    width: 100%;
+}
+
+.sidebar .logo {
+    position: relative;
+    left: 40px;
+    font-size: 20px;
+    font-weight: 800;
+    line-height: 60px;
+}
+
+.sidebar .menue li,
+a {
+    padding: 10px 10px;
+}
+
+.sidebar .menue a {
+    text-decoration: none;
+    color: black;
+}
+
+.sidebar .menue ul {
+    width: 100%;
+}
+
+.sidebar .menue ul li:hover {
+    box-shadow: 0px 0px 4px red;
+    ;
+}
+
+.sidebar .social {
+    position: absolute;
+    bottom: 25px;
+    left: 20px;
+    opacity: 0.5;
+}
+
+#check:checked~.sidebar {
+    left: -300px;
+}
