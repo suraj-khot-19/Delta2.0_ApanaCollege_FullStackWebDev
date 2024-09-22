@@ -17,8 +17,8 @@
 <body>
 
     <div class="main">
-        <div class="sidebar me-1">
-            <!--! nav -->
+        <div class="sidebar me-2">
+            <!--! nav left -->
             <div class="sidebar-nav">
                 <div class="nav-option" style="opacity: 1;">
                     <i class="fa-solid fa-house"></i>
@@ -30,7 +30,7 @@
                 </div>
             </div>
             <!-- library -->
-            <div class="sidebar-library p-1">
+            <div class="sidebar-library p-1 pt-3">
                 <!-- row 1 -->
                 <div class="d-flex justify-content-between align-items-center">
                     <div class="library-options nav-option">
@@ -46,18 +46,192 @@
                 <div class="library-card">
                     <p id="p1">Create your first playlist</p>
                     <p id="p2">It's easy, we'll help you</p>
-                    <a href="#" class="btn btn-light rounded-pill mx-1 fw-bold"> Create playlist</a>
+                    <a href="#" class="btn btn-light rounded-pill mx-1 fw-bold sm-text"> Create playlist</a>
                 </div>
 
                 <!-- card2 -->
                 <div class="library-card">
                     <p id="p1">Let's find some podcast to follow</p>
                     <p id="p2">We'll keep some updated on new episodes</p>
-                    <a href="#" class="btn btn-light rounded-pill mx-1 fw-bold"> Browse podcast</a>
+                    <a href="#" class="btn btn-light rounded-pill mx-1 fw-bold sm-text"> Browse podcast</a>
                 </div>
             </div>
         </div>
-        <div class="main-music">main</div>
+        <!--! main content  -->
+        <div class="main-music px-4">
+            <!-- top nav -->
+            <div class="music-nav d-flex justify-content-between align-items-center fixed-top">
+                <!-- left side btn -->
+                <div class="nav-icons">
+
+                    <a href="#" class="badge mx-1"><i class="fa-solid fa-angle-left"></i></a>
+
+                    <a href="#" class="badge mx-1"> <i class="fa-solid fa-angle-right"></i></a>
+
+                </div>
+                <!-- right side btn -->
+                <div class="nav-buttons">
+                    <a id="upgrade-btn" href="#" class="btn btn-light btn-sm rounded-pill mx-1 fw-bold"> Upgrade</a>
+
+                    <a id="install-btn" href="#" class="btn btn-dark btn-sm rounded-pill mx-1 fw-bold"><i
+                            class="fa-regular fa-circle-down"></i>
+                        Install App</a>
+
+                    <a href="#" class="btn btn-dark btn-sm rounded-pill mx-1 fw-bold me-3"><i
+                            class="fa-regular fa-user"></i></a>
+                </div>
+            </div>
+
+            <!-- below cards -->
+
+            <!--? card container 1 -->
+            <div class="d-flex justify-content-between align-items-center my-2">
+                <h3 class="fw-bold hover-underline">Recently played</h3>
+                <h5 class="hover-underline">see all</h5>
+            </div>
+            <div class="card-container d-flex">
+                <!-- 1.1 -->
+                <div class="music-card">
+                    <img src="./assets/images/top50.png" class="card-img-top" alt="top50">
+                    <div class="music-card-play-btn">
+                        <i class="fa-solid fa-circle-play"></i>
+                    </div>
+                    <div class="mt-2">
+                        <label class="fw-semibold mb-1">Top-50 - Global</label>
+                        <label class="opacity-50 sm-text">Your daily update of the most played tracks
+                            night...</label>
+                    </div>
+                </div>
+            </div>
+
+
+            <!--? card container 2 -->
+            <div class="d-flex justify-content-between align-items-center mt-4">
+                <h3 class="fw-bold hover-underline">Top trending</h3>
+                <h5 class="hover-underline">see all</h5>
+            </div>
+            <div class="card-container d-flex flex-wrap">
+                <!-- 2.1 -->
+                <div class="music-card">
+                    <img src="./assets/images/c1.png" class="card-img-top" alt="top50">
+                    <div class="music-card-play-btn">
+                        <i class="fa-solid fa-circle-play"></i>
+                    </div>
+                    <div class="mt-2">
+                        <label class="fw-semibold mb-1">Top-50 - Global</label>
+                        <label class="opacity-50 sm-text">Your daily update of the most played tracks
+                            night...</label>
+                    </div>
+                </div>
+                <!-- 2.2 -->
+                <div class="music-card">
+                    <img src="./assets/images/c2.png" class="card-img-top" alt="top50">
+                    <div class="music-card-play-btn">
+                        <i class="fa-solid fa-circle-play"></i>
+                    </div>
+                    <div class="mt-2">
+                        <label class="fw-semibold mb-1">Top-50 - Global</label>
+                        <label class="opacity-50 sm-text">Your daily update of the most played tracks
+                            night...</label>
+                    </div>
+                </div>
+                <!-- 2.3 -->
+                <div class="music-card">
+                    <img src="./assets/images/c3.png" class="card-img-top" alt="top50">
+                    <div class="music-card-play-btn">
+                        <i class="fa-solid fa-circle-play"></i>
+                    </div>
+                    <div class="mt-2">
+                        <label class="fw-semibold mb-1">Top-50 - Global</label>
+                        <label class="opacity-50 sm-text">Your daily update of the most played tracks
+                            night...</label>
+                    </div>
+                </div>
+                <!-- 2.4 -->
+                <div class="music-card">
+                    <img src="./assets/images/c4.png" class="card-img-top" alt="top50">
+                    <div class="music-card-play-btn">
+                        <i class="fa-solid fa-circle-play"></i>
+                    </div>
+                    <div class="mt-2">
+                        <label class="fw-semibold mb-1">Top-50 - Global</label>
+                        <label class="opacity-50 sm-text">Your daily update of the most played tracks
+                            night...</label>
+                    </div>
+                </div>
+                <!-- 2.5 -->
+                <div class="music-card">
+                    <img src="./assets/images/c5.png" class="card-img-top" alt="top50">
+                    <div class="music-card-play-btn">
+                        <i class="fa-solid fa-circle-play"></i>
+                    </div>
+                    <div class="mt-2">
+                        <label class="fw-semibold mb-1">Top-50 - Global</label>
+                        <label class="opacity-50 sm-text">Your daily update of the most played tracks
+                            night...</label>
+                    </div>
+                </div>
+            </div>
+
+            <!--? card container 3 -->
+            <div class="d-flex justify-content-between align-items-center mt-4">
+                <h3 class="fw-bold hover-underline">Top hindu dharma songs</h3>
+                <h5 class="hover-underline">see all</h5>
+            </div>
+            <div class="card-container d-flex flex-wrap">
+                <!-- 3.1 -->
+                <div class="music-card">
+                    <img src="./assets/images/c6.png" class="card-img-top" alt="top50">
+                    <div class="music-card-play-btn">
+                        <i class="fa-solid fa-circle-play"></i>
+                    </div>
+                    <div class="mt-2">
+                        <label class="fw-semibold mb-1">Top-50 - Global</label>
+                        <label class="opacity-50 sm-text">Your daily update of the most played tracks
+                            night...</label>
+                    </div>
+                </div><!-- 3.2 -->
+                <div class="music-card">
+                    <img src="./assets/images/c7.png" class="card-img-top" alt="top50">
+                    <div class="music-card-play-btn">
+                        <i class="fa-solid fa-circle-play"></i>
+                    </div>
+                    <div class="mt-2">
+                        <label class="fw-semibold mb-1">Top-50 - Global</label>
+                        <label class="opacity-50 sm-text">Your daily update of the most played tracks
+                            night...</label>
+                    </div>
+                </div><!-- 3.3 -->
+                <div class="music-card">
+                    <img src="./assets/images/c8.png" class="card-img-top" alt="top50">
+                    <div class="music-card-play-btn">
+                        <i class="fa-solid fa-circle-play"></i>
+                    </div>
+                    <div class="mt-2">
+                        <label class="fw-semibold mb-1">Top-50 - Global</label>
+                        <label class="opacity-50 sm-text">Your daily update of the most played tracks
+                            night...</label>
+                    </div>
+                </div><!-- 3.4 -->
+                <div class="music-card">
+                    <img src="./assets/images/c9.png" class="card-img-top" alt="top50">
+                    <div class="music-card-play-btn">
+                        <i class="fa-solid fa-circle-play"></i>
+                    </div>
+                    <div class="mt-2">
+                        <label class="fw-semibold mb-1">Top-50 - Global</label>
+                        <label class="opacity-50 sm-text">Your daily update of the most played tracks
+                            night...</label>
+                    </div>
+                </div>
+            </div>
+
+            <!--! empty space  -->
+            <div class="main-music-footer">
+                <div class="line-container">
+                </div>
+            </div>
+        </div>
         <div class="footer-music">footer</div>
     </div>
 

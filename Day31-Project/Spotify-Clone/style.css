@@ -58,7 +58,7 @@ body {
     justify-content: center;
     flex-direction: column;
     line-height: 2rem;
-    height: 120px;
+    height: 100px;
 }
 
 .nav-option {
@@ -121,4 +121,96 @@ body {
 .library-card #p2 {
     opacity: 0.9;
     font-size: 0.85rem;
+}
+
+/*! top nav  */
+.nav-icons {
+    margin-left: 1rem;
+}
+
+.music-nav {
+    height: 4rem;
+    position: sticky;
+    top: 0;
+    z-index: 2;
+    background-color: #101010;
+}
+
+@media(max-width:900px) {
+    #upgrade-btn {
+        display: none;
+    }
+}
+
+@media(max-width:700px) {
+    #install-btn {
+        display: none;
+    }
+
+    .nav-icons {
+        margin-left: 0.1rem;
+    }
+}
+
+/*! music cards  */
+.hover-underline {
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+.hover-underline:hover {
+    opacity: 1;
+    text-decoration: underline;
+}
+
+.music-card {
+    background-color: #202020;
+    padding: 1rem;
+    width: 9.375rem;
+    border-radius: 1rem;
+    cursor: pointer;
+    position: relative;
+    margin-right: 1.5rem;
+    margin-top: 1rem;
+}
+
+.music-card-play-btn {
+    display: none;
+    font-size: 2rem;
+    position: absolute;
+    top: 6rem;
+    right: 1rem;
+    color: rgb(0, 255, 0);
+}
+
+.music-card:hover>.music-card-play-btn {
+    display: block;
+}
+
+.music-card:hover {
+    background-color: #303030;
+}
+
+.music-card img {
+    width: 100%;
+    border-radius: 0.6rem;
+}
+
+.sm-text {
+    font-size: 0.8rem;
+}
+
+/*! main-music-footer  */
+.main-music-footer {
+    height: 280px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.line-container {
+    height: 70%;
+    width: 90%;
+    border-top: 2px solid white;
+    opacity: 0.7;
 }
