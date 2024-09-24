@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .circle {
+            height: 100px;
+            width: 100px;
+            border-radius: 50%;
+            /* border-top: 2px solid black; */
+            /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+            animation: myLoadingAnimation 1s linear infinite, changeColor 1s infinite;
+        }
+
+        @keyframes myLoadingAnimation {
+            0% {
+                transform: rotate(0deg);
+            }
+
+            100% {
+                transform: rotate(360deg);
+            }
+        }
+
+        @keyframes changeColor {
+            from {
+                border-top: 2px solid black;
+            }
+
+            to {
+                border-left: 2px solid red;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="circle"></div>
+</body>
+
+</html>
