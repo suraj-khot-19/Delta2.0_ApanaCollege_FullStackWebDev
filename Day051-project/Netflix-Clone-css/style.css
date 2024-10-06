@@ -1,0 +1,479 @@
+/* font */
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.netflix-color {
+    background-color: #D81F26;
+}
+
+body {
+    background-color: black;
+    overflow-x: hidden;
+}
+
+/*! background */
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bg {
+    height: 95vh;
+    background: url('./assets/netflix-bg.jpg');
+    position: relative;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: max(1300px, 100vw);
+}
+
+.cover-bg {
+    position: absolute;
+    top: 0;
+    width: 100vw;
+    height: 95vh;
+    background-color: black;
+    opacity: 0.7;
+}
+
+.navbar {
+    margin: 0 auto;
+    width: 80vw;
+    height: 4rem;
+    position: relative;
+    justify-content: space-between;
+}
+
+.symbol img {
+    height: 4rem;
+    position: relative;
+    z-index: 10;
+}
+
+.language-btn {
+    width: fit-content;
+    color: whitesmoke;
+    border: 0.1px solid rgba(132, 127, 127, 0.8);
+    border-radius: 4px;
+    font-size: 1.1rem;
+}
+
+/*! background image with text */
+.main-span {
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    font-family: "PT Sans", sans-serif;
+    position: relative;
+    gap: 0.9rem;
+    padding: 0px 6rem;
+}
+
+.main-span>:nth-child(1) {
+    font-weight: bold;
+    font-size: max(2.5rem, 4vw);
+    line-height: 35px;
+}
+
+.main-span>:nth-child(2) {
+    font-weight: 500;
+    font-size: max(1.2rem, 1.2vw);
+}
+
+.main-span>:nth-child(3) {
+    font-weight: 500;
+    font-size: max(1.1rem, 1vw);
+}
+
+.input-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    width: 80%;
+}
+
+.input-btn input {
+    background-color: rgba(23, 23, 23, 0.5);
+    border: 0.2px solid rgba(138, 138, 138, 0.9);
+    padding: 12px 55px 12px 15px;
+    font-weight: bold;
+    color: white;
+    width: 40%;
+}
+
+.input-btn .button {
+    width: 20%;
+    font-weight: 700;
+    color: white;
+    font-size: 1.2rem;
+    border-radius: 0.3rem;
+    line-height: 50px;
+}
+
+.divider {
+    position: relative;
+    height: 0.3rem;
+    width: 100vw;
+    background: linear-gradient(to right, rgba(33, 13, 22, 1) 16%, rgba(184, 40, 105, 1), rgba(229, 9, 20, 1), rgba(184, 40, 105, 1), rgba(33, 13, 22, 1) 84%);
+}
+
+/*! treding  */
+.trending {
+    padding-top: 15px;
+    margin: auto;
+    width: 80vw;
+    color: white;
+    margin-bottom: 1rem;
+}
+
+.trending p {
+    margin: 1rem 1rem;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.treding-div {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.trending-btn {
+    background-color: rgba(53, 53, 53, 0.5);
+    width: fit-content;
+    margin: 0.5rem 1rem;
+    padding: 0.3rem;
+    border-radius: 6px;
+    border: 0.1px solid rgba(132, 127, 127, 0.8);
+}
+
+/* !    section 1 */
+.section {
+    width: 80vw;
+    color: white;
+    margin: 0 auto;
+    /* height: 10rem; */
+}
+
+.section-imgvid {
+    position: relative;
+}
+
+.section-imgvid img {
+    width: 35vw;
+    position: relative;
+    z-index: 10;
+}
+
+.section-imgvid video {
+    position: absolute;
+    z-index: -10;
+    top: 4vw;
+    width: 30vw;
+    right: 0;
+    overflow: hidden;
+}
+
+.section-span {
+    display: flex;
+    flex-direction: column;
+}
+
+.section-span>:first-child {
+    font-weight: bold;
+    font-size: max(3vw, 1.6rem);
+}
+
+.section-span>:nth-child(2) {
+    font-weight: 400;
+    font-size: max(1.5vw, 0.75rem);
+}
+
+.section-divider {
+    height: 0.05rem;
+    margin: 1.8rem 0;
+}
+
+/*! faq  */
+.faq {
+    width: 80vw;
+    margin: 0 auto;
+    color: white;
+}
+
+.faq p {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.faq div {
+    margin-bottom: 0.6rem;
+    font-weight: 600;
+    background-color: rgba(53, 53, 53, 0.9);
+    display: flex;
+    justify-content: space-between;
+    padding: 1.6rem;
+    align-items: center;
+    cursor: pointer;
+    font-size: 1.6rem;
+}
+
+.faq div:hover {
+    background-color: rgba(70, 70, 70, 1);
+}
+
+/* !    footer */
+.footer {
+    margin: 0 auto;
+    width: 80vw;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.footer-input input {
+    width: 50%;
+}
+
+.footer-input .footer-button {
+    background-color: #D81F26;
+    width: calc(fit-content, -20px);
+    font-weight: 700;
+    color: white;
+    font-size: 1.2rem;
+    border-radius: 0.3rem;
+    line-height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: auto;
+}
+
+.footer-links {
+    color: white;
+    width: 80vw;
+    margin: 3.2rem auto;
+}
+
+.questions {
+    font-weight: 500;
+    opacity: 0.9;
+}
+
+.footer-grids span {
+    font-size: 1rem;
+    text-decoration: underline;
+    opacity: 0.9;
+    line-height: 35px;
+}
+
+/*! cards */
+.cards {
+    max-width: 80vw;
+    display: flex;
+    gap: 25px;
+    flex-wrap: wrap;
+    margin: 2rem auto;
+    display: flex;
+    margin-bottom: 10px auto;
+}
+
+.cards div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    width: 150px;
+    position: relative;
+    border-radius: 10px;
+    margin-right: 1rem;
+    z-index: -1;
+}
+
+.cards #recently-added {
+    position: absolute;
+    bottom: 0;
+    color: white;
+    background-color: #D81F26;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+#card-number {
+    font-weight: bolder;
+    font-size: 5rem;
+    text-decoration: double;
+    text-shadow: -1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 white, 1px 1px 0 white;
+    position: absolute;
+    z-index: 10;
+    left: -10px;
+    bottom: 10px;
+}
+
+.top-10 {
+    color: white;
+    background-color: #D81F26;
+    padding: 2px;
+    font-size: 0.8rem;
+    opacity: 0.9;
+    text-align: center;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
+    box-shadow: -1px 2px 1px rgba(255, 255, 255, 0.8);
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.top-10 span {
+    font-weight: bolder;
+    font-size: 0.9rem;
+}
+
+.animate-me {
+    margin: 25px auto;
+    text-align: center;
+    padding: 0.8rem;
+    border-radius: 8px;
+    transition: all 1s ease-in 1sec;
+    width: 30%;
+}
+
+
+
+/*! media */
+
+@media(max-width:500px) {
+    .symbol img {
+        height: 4rem;
+    }
+
+    #hide-me {
+        display: none;
+    }
+
+    .language-btn {
+        min-height: 2rem;
+    }
+
+    .input-btn {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .input-btn input,
+    .button,
+    .trending-btn {
+        width: 100%;
+        font-size: 1rem;
+    }
+
+    .input-btn .button {
+        width: 60%;
+        line-height: 45px;
+    }
+
+    .main-span {
+        padding: 0px 2rem;
+    }
+
+    .main-span>:nth-child(1) {
+        font-size: 2rem;
+    }
+
+    .navbar {
+        width: 90vw;
+    }
+
+    .bg,
+    .cover-bg {
+        height: 70vh;
+    }
+
+    .section-span>:first-child {
+        font-size: 1.2rem;
+        line-height: 25px;
+        font-weight: 700;
+    }
+
+    .section-span>:nth-child(2) {
+        font-size: 0.8rem;
+    }
+
+    .faq p {
+        font-size: 1rem;
+    }
+
+    .faq,
+    .section,
+    .grid-span {
+        width: 85vw;
+    }
+
+    .footer {
+        justify-content: start;
+        align-items: start;
+    }
+
+    .footer-input {
+        display: flex;
+        justify-content: start;
+    }
+
+    .faq div {
+        font-size: 1rem;
+        font-weight: 500;
+    }
+
+    .cards div {
+        height: 100px;
+        width: 70px;
+        border-radius: 2.5px;
+        margin-right: 0.4rem;
+        margin: auto;
+        justify-content: start;
+        align-items: start;
+        align-content: start;
+    }
+
+    #card-number {
+        font-size: 3rem;
+        bottom: 1px;
+        left: -8px;
+    }
+
+    .cards #recently-added {
+        font-size: 0.3rem;
+        font-weight: 400;
+    }
+}
+
+@media(max-width:306px) {
+    .navbar {
+        flex-wrap: wrap;
+        align-content: center;
+    }
+}
+
+@media(max-width:1440px) {
+    .footer-input .button {
+        width: fit-content;
+    }
+
+}
