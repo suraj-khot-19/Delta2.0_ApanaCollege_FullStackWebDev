@@ -1,0 +1,13 @@
+#black-div {
+    height: 200px;
+    width: 200px;
+    background-color: rgba(23, 23, 23, 0.8);
+    padding: 15px;
+}
+
+#red-div {
+    margin: auto, auto;
+    height: 200px;
+    width: 200px;
+    background-color: rgba(212, 17, 17, 0.8);
+}
