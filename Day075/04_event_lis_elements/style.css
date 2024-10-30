@@ -1,0 +1,23 @@
+.div {
+    height: 50px;
+    width: 50px;
+    background-color: gray;
+    border: 2px solid red;
+}
+
+div {
+    height: 250px;
+    width: 250px;
+    background-color: red;
+    border: 2px solid gray;
+}
+
+span {
+    display: none;
+    font-style: 25px;
+    background-color: black;
+    width: fit-content;
+    color: white;
+    font-weight: bolder;
+    padding: 5px 10px;
+}

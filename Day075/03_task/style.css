@@ -1,0 +1,16 @@
+.box {
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.color {
+    height: 250px;
+    width: 400px;
+    border: 2px solid black;
+}
+
+.mt-3 {
+    margin-top: 2rem;
+}
