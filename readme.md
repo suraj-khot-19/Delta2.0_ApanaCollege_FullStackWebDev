@@ -1,4 +1,4 @@
-<img src="./000Exercise/audio_video/suraj-khot.jpg">
+
 <p>successfully completing the course of Delta (Full Stack Web Development) in Apna college</p>
 <ul>
  ------ Skills learned  ------
